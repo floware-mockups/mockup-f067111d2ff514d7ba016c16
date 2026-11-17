@@ -1,0 +1,216 @@
+{
+  "title": "Gestione delle richieste per il verde pubblico",
+  "description": "Prototipo per registrare e monitorare segnalazioni di manutenzione, con priorità e quartiere, usando esclusivamente dati inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle richieste di manutenzione del verde pubblico.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "Quartieri interessati",
+          "value": "6"
+        },
+        {
+          "label": "Interventi completati",
+          "value": "27"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Richiesta",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Nubi Alta",
+          "Potatura di alberi lungo il viale",
+          "Alta",
+          "Da assegnare"
+        ],
+        [
+          "Vela Chiara",
+          "Ripristino di un’aiuola",
+          "Media",
+          "In lavorazione"
+        ],
+        [
+          "Lumo Verde",
+          "Rimozione di rami caduti",
+          "Alta",
+          "Pianificata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco consultabile e filtrabile delle segnalazioni di manutenzione del verde.",
+      "metrics": [
+        {
+          "label": "Totale richieste",
+          "value": "45"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Richiesta",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [
+        [
+          "Nubi Alta",
+          "Potatura di alberi lungo il viale",
+          "Alta",
+          "Da assegnare",
+          "2025-04-08"
+        ],
+        [
+          "Vela Chiara",
+          "Ripristino di un’aiuola",
+          "Media",
+          "In lavorazione",
+          "2025-04-09"
+        ],
+        [
+          "Lumo Verde",
+          "Rimozione di rami caduti",
+          "Alta",
+          "Pianificata",
+          "2025-04-10"
+        ],
+        [
+          "Bosco Quieto",
+          "Controllo di un’area giochi alberata",
+          "Bassa",
+          "Completata",
+          "2025-04-11"
+        ],
+        [
+          "Riva Serena",
+          "Sistemazione di siepi",
+          "Media",
+          "In lavorazione",
+          "2025-04-12"
+        ],
+        [
+          "Prato Lunare",
+          "Sfalcio di un’area verde",
+          "Bassa",
+          "Da assegnare",
+          "2025-04-13"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Inserisci una segnalazione con quartiere, descrizione, priorità e stato.",
+      "metrics": [],
+      "columns": [
+        "Quartiere",
+        "Richiesta",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ],
+      "rows": [],
+      "form": [
+        "Quartiere",
+        "Richiesta",
+        "Priorità",
+        "Stato",
+        "Data segnalazione"
+      ]
+    },
+    {
+      "id": "quartieri",
+      "title": "Riepilogo per quartiere",
+      "description": "Confronta il volume delle segnalazioni nei quartieri e il relativo avanzamento.",
+      "metrics": [
+        {
+          "label": "Quartieri monitorati",
+          "value": "6"
+        },
+        {
+          "label": "Quartiere con più richieste",
+          "value": "Nubi Alta"
+        },
+        {
+          "label": "Richieste da assegnare",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Quartiere",
+        "Richieste totali",
+        "Priorità alta",
+        "In lavorazione",
+        "Completate"
+      ],
+      "rows": [
+        [
+          "Nubi Alta",
+          "11",
+          "3",
+          "4",
+          "2"
+        ],
+        [
+          "Vela Chiara",
+          "9",
+          "1",
+          "3",
+          "4"
+        ],
+        [
+          "Lumo Verde",
+          "8",
+          "2",
+          "2",
+          "3"
+        ],
+        [
+          "Bosco Quieto",
+          "6",
+          "0",
+          "1",
+          "4"
+        ],
+        [
+          "Riva Serena",
+          "7",
+          "1",
+          "2",
+          "3"
+        ],
+        [
+          "Prato Lunare",
+          "4",
+          "0",
+          "0",
+          "2"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
